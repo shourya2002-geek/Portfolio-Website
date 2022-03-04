@@ -1,46 +1,65 @@
 export const projects = [
   {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 0,
-  },
-  {
-    title: 'E-Commerce',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: "DataGrad",
+    description:
+      "A content based Recommender System that presents the top courses and articles from various MOOCs and Medium based on the skill and level required by the user",
+    image: "/images/datagrad.png",
+    tags: ["React", "Bootstrap", "Particle.js", "Flask"],
+    source: "https://github.com/DataGradOrg/DataGrad",
+    visit: "https://datagrad.netlify.app/",
     id: 1,
   },
   {
-    title: 'WebRTC App',
-    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-      image: '/images/3.jpg',
-      tags: ['React', 'WebRTC'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: "D3Crypt",
+    description:
+      "An interactive online-quiz based competition web application containing Live inhouse leaderboard, displaying the live ranks of the players ,timer-based question sections, bonus question rounds.",
+    image: "/images/decrypt.jpeg",
+    tags: ["Mongo", "Express", "React", "Node"],
+    source: "https://github.com/IEEESBM/d3crypt-frontend",
+    visit: "https://d3crypt.ieeemanipal.com/",
     id: 2,
   },
   {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: "PsychUp!",
+    description:
+      "PsychUp! is a platform, which aims to promulgate the multivaried ideas and aspects of Psychology , from a scientific point of view.",
+    image: "/images/Psych-main.jpeg",
+    tags: ["Mongo", "Express", "React", "Node"],
+    source: "https://www.psychup.org.in/",
+    visit:
+      "https://www.psychup.org.in/",
     id: 3,
   },
+  {
+    title: "IntelliMachine",
+    description:
+      "IntelliMachine is a beginner-friendly Machine Learning Portal inspired from the concept of AutoML where users can deploy Machine Learning Algorithms, perform EDA techniques, and make Visualizations on datasets with the help of some buttons and no-code with explanations all throughout.",
+    image: "/images/intelli.png",
+    tags: ["Python", "Streamlit"],
+    source: "https://github.com/khusheekapoor/IntelliMachine",
+    visit:
+      "https://share.streamlit.io/khusheekapoor/intellimachine/main/app.py",
+    id: 4,
+  },
+  {
+    title: "NLPiffyIt!",
+    description:
+      "This is an innovative application built using Python and Streamlit, which endeavours to bring about Speech To Text Conversion(STT) ,while providing an interactive UI. This application integrates pure Machine Learning code into Web Development.",
+    image: "/images/nlp.jpeg",
+    tags: ["Python", "Streamlit"],
+    source: "https://github.com/shourya2002-geek/NLPiffyIt",
+    visit:
+      "https://share.streamlit.io/shourya2002-geek/web-apps-using-ml/new/index.py",
+    id: 5,
+  },
+  
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2020, text: "Started my journey" },
+  { year: 2021, text: "Began Open Source Development" },
+  { year: 2021, text: "Created DataGrad, an Open Source ML Project" },
+  { year: 2022, text: "Founded PsychUp!, a Psychology Platform" },
 ];
+
+export const Img = [{ src: "/images/nlp.jpeg" }];

@@ -1,5 +1,7 @@
 import React from 'react';
 import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { FiDatabase } from 'react-icons/fi';
+import { SiWritedotas } from 'react-icons/si';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -9,7 +11,7 @@ const Technologies = () =>  (
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
       I've worked with a range a technologies in the web development world.
-      From Back-end To Design
+      From Back-end To Front-end.
     </SectionText>
     <List>
       <ListItem>
@@ -20,7 +22,7 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experiece with <br />
-            React.js
+            <b>React.js,   Next.js,  Typescript</b>
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -32,7 +34,19 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node and Databases
+            <b>Node , Express and Firebase</b>
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <FiDatabase size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Database and Cloud Architecture</ListTitle>
+          <ListParagraph>
+            Experience with tools like <br />
+            <b>AWS,  MongoDB</b>
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -41,10 +55,34 @@ const Technologies = () =>  (
           <DiZend size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>Data Structures and Algorithms</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            tools like Figma
+            Experience with languages like <br />
+            <b>C++,  Java</b>
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <DiZend size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Machine Learning</ListTitle>
+          <ListParagraph>
+            Experience with frameworks like <br />
+            <b>Flask,  Python,  Numpy,  Pandas, Scikit</b>
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <DiZend size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Content Writing</ListTitle>
+          <ListParagraph>
+            Experience with content writing in the field of<br />
+            <b>Psychology and Mental Health</b>
           </ListParagraph>
         </ListContainer>
       </ListItem>
