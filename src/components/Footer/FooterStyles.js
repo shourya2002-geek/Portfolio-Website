@@ -15,7 +15,7 @@ export const FooterWrapper = styled.section`
 `
 
 export const LinkItem = styled.a`
-	font-size: 18px;
+	font-size: 3rem;
 	line-height: 30px;
 	color: rgba(255, 255, 255, 0.75);
 	margin-bottom: 16px;
@@ -29,13 +29,13 @@ export const LinkItem = styled.a`
 	}
 
 	@media ${props => props.theme.breakpoints.md} {
-		font-size: 16px;
+		font-size: 2.5rem;
 		line-height: 28px;
 		display: flex;
 	}
 
 	@media ${props => props.theme.breakpoints.sm} {
-		font-size: 8px;
+		font-size: 2rem;
 		line-height: 14px;
 		margin-bottom: 8px;
 		display: flex;
@@ -157,3 +157,4 @@ export const LinkTitle = styled.h4`
 		margin-bottom: 8px;
 	}
 `
+
