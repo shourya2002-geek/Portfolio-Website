@@ -1,15 +1,5 @@
 export const projects = [
   {
-    title: "DataGrad",
-    description:
-      "A content based Recommender System that presents the top courses and articles from various MOOCs and Medium based on the skill and level required by the user",
-    image: "/images/datagrad.png",
-    tags: ["React", "Bootstrap", "Particle.js", "Flask"],
-    source: "https://github.com/DataGradOrg/DataGrad",
-    visit: "https://datagrad.netlify.app/",
-    id: 1,
-  },
-  {
     title: "D3Crypt",
     description:
       "An interactive online-quiz based competition web application containing Live inhouse leaderboard, displaying the live ranks of the players ,timer-based question sections, bonus question rounds.",
@@ -17,7 +7,7 @@ export const projects = [
     tags: ["Mongo", "Express", "React", "Node"],
     source: "https://github.com/IEEESBM/d3crypt-frontend",
     visit: "https://d3crypt.ieeemanipal.com/",
-    id: 2,
+    id: 1,
   },
   {
     title: "PsychUp!",
@@ -26,8 +16,17 @@ export const projects = [
     image: "/images/Psych-main.jpeg",
     tags: ["Mongo", "Express", "React", "Node"],
     source: "https://www.psychup.org.in/",
-    visit:
-      "https://www.psychup.org.in/",
+    visit: "https://www.psychup.org.in/",
+    id: 2,
+  },
+  {
+    title: "Certman",
+    description:
+      "An in-house, online certificate generating web application, incorporating features of data uploading, parsing, and certificate generation for all events related to IECSE Manipal. Worked on API Development, and integration, along with application’s scalability",
+    image: "/images/datagrad.png",
+    tags: ["React Js", "Node Js", "Express Js", "AWS S3"],
+    source: "https://github.com/shourya2002-geek/Certman-IECSE",
+    visit: "",
     id: 3,
   },
   {
@@ -52,14 +51,18 @@ export const projects = [
       "https://share.streamlit.io/shourya2002-geek/web-apps-using-ml/new/index.py",
     id: 5,
   },
-  
 ];
 
 export const TimeLineData = [
   { year: 2020, text: "Started my journey" },
   { year: 2021, text: "Began Open Source Development" },
   { year: 2021, text: "Created DataGrad, an Open Source ML Project" },
-  { year: 2022, text: "Founded PsychUp!, a Psychology Platform" },
+  {
+    year: 2022,
+    text: "Created PsychUp!, a Psychology and Mental Health Platform",
+  },
+  { year: 2023, text: "Interned at IIT Kharagpur as a Deep Learning Intern" },
+  { year: 2023, text: "Interned at SAP Labs India as a Developer Intern" },
 ];
 
 export const Img = [{ src: "/images/nlp.jpeg" }];

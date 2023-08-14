@@ -35,7 +35,7 @@ const Hero = (props) => (
 
     <RightSection>
       <div>
-        <ImgContainer src="https://i.postimg.cc/Nf91rNzZ/Shourya-Image.jpg" />
+        <ImgContainer src="https://i.postimg.cc/rwTd96tD/Shourya-Image.jpg" />
         <ImgName>
           <div>
             <b>Shourya Gupta</b>
