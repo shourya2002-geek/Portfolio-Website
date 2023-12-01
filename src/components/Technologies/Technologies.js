@@ -74,18 +74,7 @@ const Technologies = () =>  (
           </ListParagraph>
         </ListContainer>
       </ListItem>
-      <ListItem>
-        <picture>
-          <DiZend size="3rem" />
-        </picture>
-        <ListContainer>
-          <ListTitle>Content Writing</ListTitle>
-          <ListParagraph>
-            Experience with content writing in the field of<br />
-            <b>Psychology and Mental Health</b>
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
+
     </List>
     <SectionDivider colorAlt />
   </Section>
