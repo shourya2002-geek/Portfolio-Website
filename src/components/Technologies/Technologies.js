@@ -14,6 +14,19 @@ const Technologies = () =>  (
       From Back-end To Front-end.
     </SectionText>
     <List>
+
+   <ListItem>
+        <picture>
+          <DiFirebase size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Back-End</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            <b>Node.js , Express.js and Firebase</b>
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
       <ListItem>
         <picture>
           <DiReact size="3rem" />
@@ -26,18 +39,7 @@ const Technologies = () =>  (
           </ListParagraph>
         </ListContainer>
       </ListItem>
-      <ListItem>
-        <picture>
-          <DiFirebase size="3rem" />
-        </picture>
-        <ListContainer>
-          <ListTitle>Back-End</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            <b>Node , Express and Firebase</b>
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
+     
       <ListItem>
         <picture>
           <FiDatabase size="3rem" />
