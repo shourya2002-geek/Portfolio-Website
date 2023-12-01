@@ -23,9 +23,9 @@ export const projects = [
     title: "Certman",
     description:
       "An in-house, online certificate generating web application, incorporating features of data uploading, parsing, and certificate generation for all events related to IECSE Manipal. Worked on API Development, and integration, along with application’s scalability",
-    image: "/images/datagrad.png",
+    image: "https://i.postimg.cc/W1HVWNzX/certman-img.png",
     tags: ["React Js", "Node Js", "Express Js", "AWS S3"],
-    source: "https://github.com/shourya2002-geek/Certman-IECSE",
+    source: "https://github.com/shourya2002-geek/Certman-App",
     visit: "",
     id: 3,
   },
@@ -50,6 +50,16 @@ export const projects = [
     visit:
       "https://share.streamlit.io/shourya2002-geek/web-apps-using-ml/new/index.py",
     id: 5,
+  },
+  {
+    title: "DataGrad",
+    description:
+      "An AI-driven, course recommendation application, which recommends the Top 5 MOOC courses relevant to the user search and level of expertise",
+    image: "https://i.postimg.cc/dVv4TpY6/datagrad.png",
+    tags: ["Python", "Flask", "Node Js", "Express Js", "React Js" ],
+    source: "https://github.com/shourya2002-geek/DataGrad",
+    visit: "",
+    id: 6,
   },
 ];
 
